@@ -105,3 +105,8 @@ venv.bak/
 
 # IDE
 .idea/
+
+# Chalice
+.chalice/deployments/
+.chalice/venv/
+requirements.txt

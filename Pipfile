@@ -5,13 +5,11 @@ verify_ssl = true
 
 [dev-packages]
 chalice = "*"
+invoke = "*"
+boto3 = "*"
 
 [packages]
 colorama = "*"
 
 [requires]
 python_version = "3.7"
-
-[scripts]
-deploy = "chalice deploy --profile personal"
-requirements = "pipenv lock --requirements > hello/requirements.txt"
